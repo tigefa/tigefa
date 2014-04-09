@@ -1,5 +1,7 @@
 == README
 
+{<img src="http://inch-pages.github.io/github/tigefa4u/tigefa.png" alt="Inline docs" />}[http://inch-pages.github.io/github/tigefa4u/tigefa]
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
