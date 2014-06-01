@@ -5,10 +5,14 @@ gem 'rails'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
-gem 'mysql2'
-gem 'pg'
-gem 'thin'
-gem 'chef'
+
+gem 'mysql2', group: :mysql
+gem 'pg', group: :pg
+
+group :development do
+  gem 'thin'
+  gem 'chef'
+end
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
@@ -33,14 +37,14 @@ gem 'jbuilder'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  gem 'sdoc'
 end
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt'
 
 # Use unicorn as the app server
-gem 'unicorn'
+gem 'unicorn', group: :development
 
 # Use Capistrano for deployment
 gem 'capistrano', group: :development
