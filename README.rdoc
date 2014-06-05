@@ -1,3 +1,4 @@
+{<img alt='Stories in Ready' src='https://badge.waffle.io/tigefa4u/tigefa.png?label=ready&title=Ready' />}[https://waffle.io/tigefa4u/tigefa]
 == README
 
 {<img src="http://inch-pages.github.io/github/tigefa4u/tigefa.png" alt="Inline docs" />}[http://inch-pages.github.io/github/tigefa4u/tigefa]
