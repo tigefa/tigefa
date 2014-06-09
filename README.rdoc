@@ -1,9 +1,10 @@
-{<img alt='Stories in Ready' src='https://badge.waffle.io/tigefa4u/tigefa.png?label=ready&title=Ready' />}[https://waffle.io/tigefa4u/tigefa]
-== README
+{<img alt='Stories in Ready' src='https://badge.waffle.io/tigefa4u/tigefa.png?label=ready&title=Ready' />}[https://waffle.io/tigefa4u/tigefa] {<img src="http://ci.tigefa.org/buildStatus/icon?job=tigefa" alt="tigefa build status" />}[http://ci.tigefa.org/job/tigefa/]
 
-{<img src="http://inch-pages.github.io/github/tigefa4u/tigefa.png" alt="Inline docs" />}[http://inch-pages.github.io/github/tigefa4u/tigefa]
+== tigefa
 
-{<img src="http://inch-ci.org/github/tigefa4u/tigefa.png?branch=master" alt="Inline docs" />}[http://inch-ci.org/github/tigefa4u/tigefa]
+Ruby On Rails Apps.
+
+{<img src="http://inch-pages.github.io/github/tigefa4u/tigefa.png" alt="Inline docs" />}[http://inch-pages.github.io/github/tigefa4u/tigefa] {<img src="http://inch-ci.org/github/tigefa4u/tigefa.png?branch=master" alt="Inline docs" />}[http://inch-ci.org/github/tigefa4u/tigefa]
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
