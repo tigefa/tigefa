@@ -10,7 +10,8 @@ bundler_args: --no-deployment --path ./vendor/bundle
 before_install:
   - gem update --system
   - gem --version
-script: /home/travis/build/tigefa4u/tigefa/bin/build
+script:
+  - bundle exec rake db:migrate
 matrix:
   fast_finish: true
   allow_failures:
