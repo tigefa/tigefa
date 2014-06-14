@@ -10,7 +10,7 @@ bundler_args: --no-deployment --path ./vendor/bundle
 before_install:
   - gem update --system
   - gem --version
-script: ./bin/build
+script: /home/travis/build/tigefa4u/tigefa/bin/build
 matrix:
   fast_finish: true
   allow_failures:
