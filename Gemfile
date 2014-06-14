@@ -14,6 +14,11 @@ group :development do
   gem 'chef'
 end
 
+group :log do
+  gem 'rails_stdout_logging'
+  gem 'rails_12factor'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails'
 
