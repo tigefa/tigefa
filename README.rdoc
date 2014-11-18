@@ -1,4 +1,4 @@
-{<img alt='Stories in Ready' src='https://badge.waffle.io/tigefa4u/tigefa.png?label=ready&title=Ready' />}[https://waffle.io/tigefa4u/tigefa] {<img src="http://ci.tigefa.org/buildStatus/icon?job=tigefa" alt="tigefa build status" />}[http://ci.tigefa.org/job/tigefa/]
+{<img alt='Stories in Ready' src='https://badge.waffle.io/tigefa4u/tigefa.png?label=ready&title=Ready' />}[https://waffle.io/tigefa4u/tigefa] {<img src="http://ci.tigefa.org/projects/1/status.png?ref=master" alt="tigefa build status" />}[http://ci.tigefa.org/projects/1?ref=master]
 
 == tigefa
 
