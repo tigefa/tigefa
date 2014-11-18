@@ -1,9 +1,0 @@
-#! /bin/bash
-
-echo "  "
-echo "------------------------------------------------------"
-echo "          Install tigefa ruby on rails apps           "
-echo "------------------------------------------------------"
-echo "  "
-
-bundle exec rake db:migrate
