@@ -12,6 +12,10 @@ gem 'pg', group: :pg
 group :development do
   gem 'thin'
   gem 'chef'
+  gem 'spring'
+  gem 'listen'
+  gem 'unicorn'
+  gem 'capistrano'
 end
 
 group :log do
@@ -19,8 +23,16 @@ group :log do
   gem 'rails_12factor'
 end
 
+group :omniauth do
+  gem 'omniauth'
+  gem 'omniauth-github'
+  gem 'omniauth-twitter'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails'
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
@@ -44,12 +56,3 @@ end
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt'
-
-# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring',        group: :development
-
-# Use unicorn as the app server
-gem 'unicorn', group: :development
-
-# Use Capistrano for deployment
-gem 'capistrano', group: :development
