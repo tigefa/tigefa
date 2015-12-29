@@ -1,8 +1,7 @@
-{<img alt='Stories in Ready' src='https://badge.waffle.io/tigefa4u/tigefa.png?label=ready&title=Ready' />}[https://waffle.io/tigefa4u/tigefa] {<img src="http://ci.tigefa.org/projects/1/status.png?ref=master" alt="tigefa build status" />}[http://ci.tigefa.org/projects/1?ref=master]
-
 == tigefa
 
 {<img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/tigefa4u/tigefa">}[https://gitter.im/tigefa4u/tigefa?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge]
+{<img alt='Stories in Ready' src='https://badge.waffle.io/tigefa4u/tigefa.png?label=ready&title=Ready' />}[https://waffle.io/tigefa4u/tigefa]
 
 Ruby On Rails Apps.
 
@@ -16,7 +15,7 @@ Things you may want to cover:
 
 2.0.0
 
-2.1.2 (current)
+2.1.5 (current)
 
 * System dependencies
 
