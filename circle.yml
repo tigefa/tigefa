@@ -1,0 +1,19 @@
+machine:
+  timezone:
+    Asia/Jakarta
+  ruby:
+    version: 2.1.9
+  services:
+    - redis
+
+test:
+  post:
+    - bundle exec rake test
+        environment:
+          RAILS_ENV: test
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: tigefa
