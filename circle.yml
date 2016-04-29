@@ -9,8 +9,6 @@ machine:
 test:
   post:
     - bundle exec rake test
-        environment:
-          RAILS_ENV: test
 
 deployment:
   staging:
