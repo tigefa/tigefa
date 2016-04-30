@@ -10,8 +10,8 @@ test:
   post:
     - bundle exec rake test
 
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: tigefa
+#deployment:
+#  staging:
+#    branch: master
+#    heroku:
+#      appname: tigefa
