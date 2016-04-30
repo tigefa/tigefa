@@ -1,0 +1,30 @@
+platform:
+  - x86
+  - x64
+
+install:
+  - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
+  - ruby --version
+  - gem --version
+  - git --version
+
+build: off
+
+cache:
+  - vendor/bundle
+
+test_script:
+  - bundle config --local path vendor/bundle
+  - bundle install
+  - bundle exec rake test
+
+environment:
+  matrix:
+    - ruby_version: "200"
+    - ruby_version: "21"
+    - ruby_version: "22"
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - ruby_version: "22"
