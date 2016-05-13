@@ -18,3 +18,4 @@ Gemfile.lock
 /log/*
 !/log/.keep
 /tmp
+/site
