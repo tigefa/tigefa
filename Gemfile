@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails'
-gem 'nokogiri'
+gem 'rails', '~> 4.2', '>= 4.2.6'
+gem 'nokogiri', '~> 1.6', '>= 1.6.7.2'
 gem 'sqlite3', group: :sqlite
 gem "mysql2", group: :mysql
 gem "pg", group: :postgres
@@ -22,7 +22,7 @@ gem 'github-markup'
 gem 'redcarpet'
 gem 'RedCloth'
 # Redis
-gem "redis-rails"
+gem 'redis-rails', '~> 4.0'
 gem 'redis'
 gem 'redis-namespace'
 gem 'connection_pool'
