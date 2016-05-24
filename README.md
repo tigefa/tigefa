@@ -7,6 +7,7 @@ Ruby On Rails Apps. :construction: :penguin:
 [![inch-ci](http://inch-ci.org/github/tigefa/tigefa.png?branch=master)](http://inch-ci.org/github/tigefa/tigefa)
 [![Code Climate](https://codeclimate.com/github/tigefa/tigefa/badges/gpa.svg)](https://codeclimate.com/github/tigefa/tigefa)
 [![Test Coverage](https://codeclimate.com/github/tigefa/tigefa/badges/coverage.svg)](https://codeclimate.com/github/tigefa/tigefa/coverage)
+[![security](https://hakiri.io/github/tigefa/tigefa/master.svg)](https://hakiri.io/github/tigefa/tigefa/master)
 
 ## Plans
 
