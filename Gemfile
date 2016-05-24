@@ -6,10 +6,10 @@ gem 'sqlite3', group: :sqlite
 gem "mysql2", group: :mysql
 gem "pg", group: :postgres
 gem 'sass-rails'
-gem 'uglifier'
+gem 'uglifier', '~> 3.0'
 gem 'coffee-rails'
 gem 'therubyracer', platforms: :ruby
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'bcrypt'
@@ -19,12 +19,10 @@ gem "underscore-rails"
 gem "carrierwave"
 gem 'dropzonejs-rails'
 gem 'github-markup'
-gem 'redcarpet'
-gem 'RedCloth'
 # Redis
 gem 'redis-rails', '~> 4.0'
 gem 'redis'
-gem 'redis-namespace'
+gem 'redis-namespace', '~> 1.5', '>= 1.5.2'
 gem 'connection_pool'
 
 # Application server

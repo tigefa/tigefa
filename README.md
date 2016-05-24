@@ -5,6 +5,8 @@ Ruby On Rails Apps. :construction: :penguin:
 [![Stories in Ready](https://badge.waffle.io/tigefa/tigefa.png?label=ready&title=Ready)](https://waffle.io/tigefa/tigefa)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/tigefa/tigefa)
 [![inch-ci](http://inch-ci.org/github/tigefa/tigefa.png?branch=master)](http://inch-ci.org/github/tigefa/tigefa)
+[![Code Climate](https://codeclimate.com/github/tigefa/tigefa/badges/gpa.svg)](https://codeclimate.com/github/tigefa/tigefa)
+[![Test Coverage](https://codeclimate.com/github/tigefa/tigefa/badges/coverage.svg)](https://codeclimate.com/github/tigefa/tigefa/coverage)
 
 ## Plans
 
