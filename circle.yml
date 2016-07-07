@@ -9,7 +9,6 @@ machine:
 test:
   post:
     - bundle exec rake test
-        parallel: true
 
 #deployment:
 #  staging:
