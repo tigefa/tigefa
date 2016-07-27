@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.2', '>= 4.2.6'
-gem 'nokogiri', '~> 1.6', '>= 1.6.7.2'
+gem 'rails', '~> 5.0'
+gem 'nokogiri', '~> 1.6', '>= 1.6.8'
 gem 'sqlite3', group: :sqlite
 gem "mysql2", group: :mysql
 gem "pg", group: :postgres
@@ -20,7 +20,7 @@ gem "carrierwave"
 gem 'dropzonejs-rails'
 gem 'github-markup'
 # Redis
-gem 'redis-rails', '~> 4.0'
+gem 'redis-rails', '~> 5.0', '>= 5.0.1'
 gem 'redis'
 gem 'redis-namespace', '~> 1.5', '>= 1.5.2'
 gem 'connection_pool'
