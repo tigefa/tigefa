@@ -10,6 +10,10 @@ test:
   post:
     - bundle exec rake test
 
+notify:
+  webhooks:
+    - url: https://webhooks.gitter.im/e/24dd4f1f0b20f13288b8
+    
 #deployment:
 #  staging:
 #    branch: master
