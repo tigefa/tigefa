@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 5.0'
+gem 'rails'
 gem 'nokogiri', '~> 1.6', '>= 1.6.8'
 gem 'sqlite3', group: :sqlite
 gem "mysql2", group: :mysql
@@ -9,7 +9,7 @@ gem 'sass-rails'
 gem 'uglifier', '~> 3.0'
 gem 'coffee-rails'
 gem 'therubyracer', platforms: :ruby
-gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'bcrypt'
