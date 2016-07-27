@@ -1,13 +1,1 @@
-ubuntu-14.04:
-  - libicu-dev
-  - build-essential
-  - redis-server
-  - redis-tools
-  - libhiredis-dev
-
-ubuntu-16.04:
-  - libicu-dev
-  - build-essential
-  - redis-server
-  - redis-tools
-  - libhiredis-dev
+notifications: false
