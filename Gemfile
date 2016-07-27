@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
-
-gem 'rails'
+ruby '2.3.1'
+gem 'rails', '5.0.0'
 gem 'nokogiri', '~> 1.6', '>= 1.6.8'
 gem 'sqlite3', group: :sqlite
 gem "mysql2", group: :mysql
 gem "pg", group: :postgres
-gem 'sass-rails'
+#gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
 gem 'therubyracer', platforms: :ruby
@@ -37,7 +37,7 @@ group :development do
 
   gem "annotate"
   gem "letter_opener"
-  gem 'quiet_assets'
+#  gem 'quiet_assets'
   gem 'bullet', require: false
   gem 'rblineprof', platform: :mri, require: false
   gem 'web-console'
