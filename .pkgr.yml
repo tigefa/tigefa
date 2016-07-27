@@ -1,4 +1,6 @@
-dependencies:
+build_dependencies:
   - sqlite3
   - libsqlite3-dev
 notifications: false
+services:
+  - redis
