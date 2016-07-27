@@ -11,6 +11,10 @@ targets:
     build_dependencies:
       - sqlite3
       - libsqlite3-dev
+  centos-6:
+    build_dependencies:
+      - sqlite
+      - sqlite-devel
 notifications: false
 services:
   - redis
