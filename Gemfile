@@ -6,7 +6,7 @@ gem 'sqlite3', group: :sqlite
 gem "mysql2", group: :mysql
 gem "pg", group: :postgres
 gem 'sass-rails'
-gem 'uglifier', '~> 3.0'
+gem 'uglifier'
 gem 'coffee-rails'
 gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
@@ -20,9 +20,9 @@ gem "carrierwave"
 gem 'dropzonejs-rails'
 gem 'github-markup'
 # Redis
-gem 'redis-rails', '~> 5.0', '>= 5.0.1'
+gem 'redis-rails'
 gem 'redis'
-gem 'redis-namespace', '~> 1.5', '>= 1.5.2'
+gem 'redis-namespace'
 gem 'connection_pool'
 
 # Application server
@@ -33,24 +33,24 @@ end
 
 group :development do
   gem "foreman"
-  gem 'brakeman', '~> 3.2.0', require: false
+  gem 'brakeman'
 
-  gem "annotate", "~> 2.7.0"
-  gem "letter_opener", '~> 1.1.2'
-  gem 'quiet_assets', '~> 1.0.2'
+  gem "annotate"
+  gem "letter_opener"
+  gem 'quiet_assets'
   gem 'bullet', require: false
   gem 'rblineprof', platform: :mri, require: false
-  gem 'web-console', '~> 2.0'
+  gem 'web-console'
 
   # Better errors handler
-  gem 'better_errors', '~> 1.0.1'
-  gem 'binding_of_caller', '~> 0.7.2'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 
   # Docs generator
   gem "sdoc"
 
   # thin instead webrick
-  gem 'thin', '~> 1.6.1'
+  gem 'thin'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
