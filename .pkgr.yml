@@ -1,6 +1,16 @@
-build_dependencies:
-  - sqlite3
-  - libsqlite3-dev
+targets:
+  ubuntu-14.04:
+    build_dependencies:
+      - sqlite3
+      - libsqlite3-dev
+  ubuntu-16.04:
+    build_dependencies:
+      - sqlite3
+      - libsqlite3-dev
+  debian-7:
+    build_dependencies:
+      - sqlite3
+      - libsqlite3-dev
 notifications: false
 services:
   - redis
