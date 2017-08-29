@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.4.1'
-gem 'rails', '~> 5.0', '>= 5.0.0.1'
-gem 'nokogiri', '~> 1.6', '>= 1.6.8'
+gem 'rails', '~> 5.1', '>= 5.1.3'
+gem 'nokogiri', '~> 1.8'
 gem 'sqlite3', group: :sqlite
 gem "mysql2", group: :mysql
 gem "pg", group: :postgres

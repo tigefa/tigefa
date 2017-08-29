@@ -266,9 +266,9 @@ DEPENDENCIES
   kaminari
   letter_opener
   mysql2
-  nokogiri (~> 1.6, >= 1.6.8)
+  nokogiri (~> 1.8)
   pg
-  rails (~> 5.0, >= 5.0.0.1)
+  rails (~> 5.1, >= 5.1.3)
   rblineprof
   redis
   redis-namespace
