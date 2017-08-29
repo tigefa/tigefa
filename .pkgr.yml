@@ -7,11 +7,11 @@ targets:
     build_dependencies:
       - sqlite3
       - libsqlite3-dev
-  debian-7:
+  debian-8:
     build_dependencies:
       - sqlite3
       - libsqlite3-dev
-  centos-6:
+  centos-7:
     build_dependencies:
       - sqlite
       - sqlite-devel
