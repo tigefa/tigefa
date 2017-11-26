@@ -7,7 +7,6 @@ install:
   - ruby --version
   - gem --version
   - git --version
-  - gem install bundler --pre
 
 build: off
 
