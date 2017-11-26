@@ -3,12 +3,12 @@ dist: trusty
 language: ruby
 cache: bundler
 rvm:
-  - 2.4.1
+  - 2.4.2
 branches:
   only:
     - master
 before_install:
-  - gem install bundler
+  - gem install bundler --pre
   - gem update --system
 script:
   - bundle exec rake test
