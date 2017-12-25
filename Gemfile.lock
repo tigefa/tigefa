@@ -123,7 +123,7 @@ GEM
       activerecord
       kaminari-core (= 1.1.1)
     kaminari-core (1.1.1)
-    kgio (2.11.0)
+    kgio (2.11.1)
     launchy (2.4.3)
       addressable (~> 2.3)
     letter_opener (1.4.1)
@@ -232,7 +232,7 @@ GEM
     uglifier (4.0.2)
       execjs (>= 0.3.0, < 3)
     underscore-rails (1.8.3)
-    unicorn (5.3.1)
+    unicorn (5.4.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
     unicorn-worker-killer (0.4.4)
