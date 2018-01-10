@@ -29,7 +29,7 @@ matrix:
     
 notifications:
 - provider: Webhook
-  url: https://webhooks.gitter.im/e/1048d1049fd1498d2313
+  url: https://webhooks.gitter.im/e/ad9d237e4e494d7f8b66
   method: POST
   on_build_success: true
   on_build_failure: true
