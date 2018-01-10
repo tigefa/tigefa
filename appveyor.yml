@@ -26,3 +26,11 @@ matrix:
   fast_finish: true
   allow_failures:
     - ruby_version: "24"
+    
+notifications:
+- provider: Webhook
+  url: https://webhooks.gitter.im/e/1048d1049fd1498d2313
+  method: POST
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: true
