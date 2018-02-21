@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 5.1', '>= 5.1.4'
+gem 'rails', '~> 5.1'
 gem 'nokogiri', '~> 1.8'
 gem 'sqlite3', group: :sqlite
 gem "mysql2", group: :mysql
