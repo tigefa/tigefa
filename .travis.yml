@@ -7,9 +7,9 @@ language: ruby
 cache: bundler
 rvm:
   - 2.4.3
-branches:
-  only:
-    - master
+#branches:
+#  only:
+#    - master
 before_install:
   - gem install bundler --pre
   - gem update --system
