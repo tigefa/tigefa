@@ -19,6 +19,8 @@ before_install:
 script:
   - bundle exec rake test
 addons:
+  chrome: stable
+  firefox: latest
   apt:
     packages:
       - docker-ce
