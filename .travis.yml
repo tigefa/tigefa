@@ -6,9 +6,10 @@ dist: trusty
 language: ruby
 cache: bundler
 services:
+  - docker
   - redis-server
 rvm:
-  - 2.4.3
+  - 2.4.4
 #branches:
 #  only:
 #    - master
