@@ -18,6 +18,10 @@ before_install:
   - gem update --system
 script:
   - bundle exec rake test
+addons:
+  apt:
+    packages:
+      - docker-ce
 matrix:
   fast_finish: true
 notifications:
