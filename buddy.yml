@@ -1,0 +1,30 @@
+- pipeline: "rails"
+  trigger_mode: "ON_EVERY_PUSH"
+  ref_name: "master"
+  ref_type: "BRANCH"
+  always_from_scratch: true
+  auto_clear_cache: true
+  actions:
+  - action: "Execute: bin/rake test"
+    type: "BUILD"
+    docker_image_name: "library/ruby"
+    docker_image_tag: "2.4.4"
+    execute_commands:
+    - "# Working directory with cloned repository: /buddy/tigefa"
+    - "# Click the link at the bottom for more options"
+    - "gem install bundler"
+    - "bundle install --jobs=$(nproc)"
+    - "bundle exec rake test"
+    setup_commands:
+    - "gem install bundler"
+    - "curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -"
+    - "sudo apt-get install -y nodejs"
+    services:
+    - type: "REDIS"
+      version: "latest"
+      persistent: false
+      connection:
+        host: "redis"
+        port: 6379
+    shell: "SH"
+    trigger_condition: "ALWAYS"
