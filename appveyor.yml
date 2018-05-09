@@ -34,3 +34,10 @@ notifications:
   on_build_success: true
   on_build_failure: true
   on_build_status_changed: true
+- provider: HipChat
+  room: 4575221
+  auth_token:
+    secure: Mk8/27RdYz1sTcMAjiIEhYNI4dnz//8xvz4a0eO+P5Wuav2J/vfU6rWq7QpjTk6F
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: true
