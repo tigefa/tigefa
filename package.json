@@ -1,5 +1,9 @@
 {
   "name": "tigefa",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "vanilla-framework": "^1.7.0"
+  }
 }

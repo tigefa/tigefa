@@ -6,6 +6,8 @@
 /.hg
 /.bzr
 /.svn
+node_modules
+package-lock.json
 # Ignore bundler config.
 /.bundle
 /vendor/bundle
