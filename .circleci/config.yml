@@ -1,29 +1,18 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/appName
     docker:
-      - image: ruby:2.5.1
-        environment:
-          PG_HOST: localhost
-          PG_USER: ubuntu
-          RAILS_ENV: test
-          RACK_ENV: test
-      # The following example uses the official postgres 9.6 image, you may also use circleci/postgres:9.6 
-      # which includes a few enhancements and modifications. It is possible to use either image.
-      - image: postgres:latest
-        environment:
-          POSTGRES_USER: ubuntu
-          POSTGRES_DB: tigefa
+      - image: ubuntu:latest
     steps:
       - checkout
       - run:
-          name: Install Ruby Dependencies
-          command: bundle install
-      - run: 
-          name: Set up DB
+          name: Install and Update Packages
           command: |
-            bundle exec rake db:create db:schema:load --trace
-            bundle exec rake db:migrate
-        environment:
-          DATABASE_URL: "postgres://ubuntu@localhost:5432/tigefa"
+            echo 'Asia/Jakarta' > /etc/timezone
+            export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true
+            gem install bundler
+            bundle install
+      - run:
+          name: Test
+          command: |
+            bundle exec rake test
