@@ -8,10 +8,18 @@ jobs:
       - run:
           name: Install and Update Packages
           command: |
-            echo 'Asia/Jakarta' > /etc/timezone
             export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true
+            apt-get update && apt-get dist-upgrade -y
+            apt-get install -y sudo wget curl netcat aria2
+            curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+            sudo apt-get install -y nodejs build-essential
+            sudo -E -H npm install --global npm@latest
+            sudo -E -H npm install --global node-gyp
+            sudo -E -H npm install --global node-pre-gyp
+            sudo -E -H npm install --global yarn
+            yarn
             gem install bundler
-            bundle install
+            bundle install --jobs=$(nproc)
       - run:
           name: Test
           command: |
