@@ -3,7 +3,8 @@ platform:
   - x64
 
 install:
-  - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
+#  - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
+  - set PATH=C:\Ruby%ruby_version%\bin;C:\Program Files\7-Zip;C:\Program Files\AppVeyor\BuildAgent;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Program Files;C:\Windows
   - ruby --version
   - gem --version
   - git --version
