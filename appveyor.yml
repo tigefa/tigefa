@@ -16,19 +16,19 @@ cache:
 
 test_script:
   - bundle config --local path vendor/bundle
-  - bundle install
+  - bundle install --jobs=9
   - bundle exec rake test
 
 environment:
   matrix:
     - ruby_version: "24"
-    - ruby_version: "25"
+#    - ruby_version: "25"
 
 matrix:
   fast_finish: true
   allow_failures:
     - ruby_version: "24"
-    - ruby_version: "25"
+#    - ruby_version: "25"
     
 notifications:
 - provider: Webhook
