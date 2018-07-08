@@ -21,11 +21,13 @@ test_script:
 environment:
   matrix:
     - ruby_version: "24"
+    - ruby_version: "25"
 
 matrix:
   fast_finish: true
   allow_failures:
     - ruby_version: "24"
+    - ruby_version: "25"
     
 notifications:
 - provider: Webhook
