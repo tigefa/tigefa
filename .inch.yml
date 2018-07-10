@@ -1,3 +1,5 @@
 files:
   included:
-    - {app,config,lib}/**/*.rb
+    - app/**/*.rb
+    - config/**/*.rb
+    - lib/**/*.rb
