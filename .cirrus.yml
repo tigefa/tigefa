@@ -2,6 +2,10 @@ container:
   image: ruby:latest
 
 rake_task:
+  requirement_script:
+    - apt-get update && apt-get dist-upgrade
+    - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+    - apt-get install -y nodejs
   bundle_cache:
     folder: /usr/local/bundle
     fingerprint_script: cat Gemfile.lock
