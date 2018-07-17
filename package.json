@@ -4,6 +4,6 @@
   "dependencies": {},
   "devDependencies": {
     "node-sass": "4.9.2",
-    "vanilla-framework": "1.7.1"
+    "vanilla-framework": "1.8.0"
   }
 }
