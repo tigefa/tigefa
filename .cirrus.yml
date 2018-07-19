@@ -7,6 +7,8 @@ rake_task:
     - apt-get install -y sudo wget curl python-pip python-pygments python3-pip
     - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
     - apt-get install -y nodejs
+    - apt-get install -y redis-server
+    - service start redis-server
   bundle_cache:
     folder: /usr/local/bundle
     fingerprint_script: cat Gemfile.lock
