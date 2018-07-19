@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: ruby:2.6.0-preview2-stretch
+      - image: ruby:latest
     steps:
       - checkout
       - run:
@@ -10,16 +10,17 @@ jobs:
           command: |
             export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true
             apt-get update && apt-get dist-upgrade -y
-            apt-get install -y sudo wget curl netcat aria2
+            apt-get install -y sudo wget curl netcat aria2 python-pip python3-pip python-pygments
             curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-            sudo apt-get install -y nodejs build-essential
+            sudo apt-get install -y nodejs redis-server
+            sudo service redis-server start
             sudo -E -H npm install --global npm@latest
             sudo -E -H npm install --global node-gyp
             sudo -E -H npm install --global node-pre-gyp
             sudo -E -H npm install --global yarn
             yarn
-            gem install bundler
-            bundle install --jobs=$(nproc)
+            gem install bundler --no-document
+            bundle install --jobs=9
       - run:
           name: Test
           command: |
