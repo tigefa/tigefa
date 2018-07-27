@@ -3,6 +3,6 @@
     "config:base"
   ],
   "automergeAll": [
-    "automerge": true
+    "automerge:true"
     ]
 }
