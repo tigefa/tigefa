@@ -1,5 +1,6 @@
 {
-  "extends": [
-    "config:base"
-  ]
+    "automergeAll": {
+      "description": "Automerge all upgrades (inluding major) if they pass tests",
+      "automerge": true
+    }
 }
