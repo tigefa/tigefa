@@ -21,6 +21,9 @@ jobs:
             npm install
             gem install bundler --no-document
             bundle install --jobs=9
+      
+      - setup_remote_docker
+      
       - run:
           name: Test
           command: |
