@@ -14,3 +14,6 @@ rake_task:
     fingerprint_script: cat Gemfile.lock
     populate_script: bundle install --jobs=9
   rake_script: bundle exec rake test
+
+docker_builder:
+  build_script: docker build --tag sgng/tgfa:latest .
