@@ -12,6 +12,7 @@ steps:
     versionSpec: '>= 2.5'
 
 - script: |
+    apt update && apt full-upgrade -y && apt install -y libsqlite3-dev libv8-dev
     gem install bundler
     bundle install --retry=3 --jobs=4
   displayName: 'bundle install'
