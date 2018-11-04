@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "node-sass": "4.9.4",
+    "node-sass": "4.10.0",
     "vanilla-framework": "1.8.0"
   }
 }
