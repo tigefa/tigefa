@@ -10,9 +10,11 @@ steps:
 - task: UseRubyVersion@0
   inputs:
     versionSpec: '>= 2.5'
+    addToPath: true
 
 - script: |
     sudo apt-get update -yqq && sudo apt-get install -yqq redis-server sqlite3 libsqlite3-dev libv8-dev
+    gem install bundler --no-document
     bundle install --retry=3 --jobs=9
   displayName: 'bundle install'
 
