@@ -12,10 +12,9 @@ steps:
     versionSpec: '>= 2.5'
 
 - script: |
-    sudo apt update && sudo apt install -y libsqlite3-dev libv8-dev
-    gem install bundler
+    sudo apt-get update -yqq && sudo apt-get install -yqq redis-server sqlite3 libsqlite3-dev libv8-dev
     bundle install --retry=3 --jobs=9
   displayName: 'bundle install'
 
-- script: bundle exec rake
+- script: bundle exec rake test
   displayName: 'bundle exec rake'
