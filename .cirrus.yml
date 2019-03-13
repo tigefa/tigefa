@@ -9,6 +9,7 @@ rake_task:
     - apt-get install -y nodejs
     - apt-get install -y redis-server
     - service redis-server start
+    - gem install bundler
   bundle_cache:
     folder: /usr/local/bundle
     fingerprint_script: cat Gemfile.lock
