@@ -14,7 +14,6 @@ jobs:
             curl -sL https://deb.nodesource.com/setup_8.x | bash -
             sudo apt-get install -y nodejs redis-server
             sudo service redis-server start
-            sudo -E -H npm install --global npm@latest
             sudo -E -H npm install --global node-gyp
             sudo -E -H npm install --global node-pre-gyp
             sudo -E -H npm install --global yarn
