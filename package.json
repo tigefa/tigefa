@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "sass": "1.22.10",
+    "sass": "1.22.12",
     "vanilla-framework": "2.3.0"
   }
 }
