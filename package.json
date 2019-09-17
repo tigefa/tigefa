@@ -4,6 +4,6 @@
   "dependencies": {},
   "devDependencies": {
     "sass": "1.22.12",
-    "vanilla-framework": "2.3.0"
+    "vanilla-framework": "2.4.0"
   }
 }
