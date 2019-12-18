@@ -9,7 +9,7 @@ services:
   - docker
   - redis-server
 rvm:
-  - 2.6.3
+  - 2.6.5
 #branches:
 #  only:
 #    - master
