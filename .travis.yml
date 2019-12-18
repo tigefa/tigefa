@@ -13,9 +13,9 @@ rvm:
 #branches:
 #  only:
 #    - master
-before_install:
-  - gem install bundler --pre
-  - gem update --system
+#before_install:
+#  - gem install bundler --pre
+#  - gem update --system
 script:
   - bundle exec rake test
 addons:
