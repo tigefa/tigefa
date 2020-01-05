@@ -13,8 +13,8 @@ rvm:
 #branches:
 #  only:
 #    - master
-#before_install:
-#  - gem install bundler --pre
+before_install:
+  - gem install bundler
 #  - gem update --system
 script:
   - bundle exec rake test
