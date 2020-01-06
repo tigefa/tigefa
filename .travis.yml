@@ -2,7 +2,7 @@
 #  - linux
 #  - osx
 sudo: required
-dist: trusty
+dist: bionic
 language: ruby
 cache: bundler
 services:
