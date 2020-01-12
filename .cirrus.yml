@@ -12,7 +12,7 @@ rake_task:
     - gem install bundler
   bundle_cache:
     folder: /usr/local/bundle
-    fingerprint_script: cat Gemfile.lock
+    fingerprint_script: echo $RUBY_VERSION && cat Gemfile && cat Gemfile.lock
     populate_script: bundle install --jobs=9
   rake_script: bundle exec rake test
 
