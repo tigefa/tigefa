@@ -1,9 +1,15 @@
 {
   "name": "tigefa",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@rails/ujs": "^6.0.0",
+    "turbolinks": "^5.2.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/actioncable": "^6.0.0"
+  },
   "devDependencies": {
     "sass": "1.26.3",
     "vanilla-framework": "2.9.0"
-  }
+  },
+  "version": "0.1.0"
 }
