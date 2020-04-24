@@ -8,7 +8,7 @@
     "@rails/actioncable": "6.0.2"
   },
   "devDependencies": {
-    "sass": "1.26.3",
+    "sass": "1.26.5",
     "vanilla-framework": "2.10.0"
   },
   "version": "0.1.0"
