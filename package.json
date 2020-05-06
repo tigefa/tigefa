@@ -2,7 +2,7 @@
   "name": "tigefa",
   "private": true,
   "dependencies": {
-    "@rails/ujs": "6.0.2",
+    "@rails/ujs": "6.0.3",
     "turbolinks": "5.2.0",
     "@rails/activestorage": "6.0.2",
     "@rails/actioncable": "6.0.2"
