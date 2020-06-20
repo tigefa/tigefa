@@ -1,6 +1,6 @@
-platform:
-  - x86
-  - x64
+# platform:
+#   - x86
+#   - x64
 
 install:
 #  - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
