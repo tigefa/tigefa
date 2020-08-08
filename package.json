@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "sass": "1.26.10",
-    "vanilla-framework": "2.15.0"
+    "vanilla-framework": "2.16.0"
   },
   "version": "0.1.0"
 }
