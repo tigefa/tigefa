@@ -1,5 +1,6 @@
 {
   "automerge": true,
+  "timezone": "Asia/Jakarta",
   "extends": [
     "config:base"
   ]
