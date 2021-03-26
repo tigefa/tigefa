@@ -13,11 +13,11 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu]
-        ruby: [2.5, 2.6, 2.7, 3.0]
+        ruby: [2.5, 2.6, 2.7]
     steps:
     - uses: actions/checkout@v2
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: ${{ matrix.ruby }}
-    - run: bundle install
+    - run: bundle install -j9
     - run: bundle exec rake
