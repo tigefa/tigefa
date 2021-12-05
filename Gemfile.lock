@@ -84,7 +84,7 @@ GEM
       activesupport (>= 5.0)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
-    jbuilder (2.11.2)
+    jbuilder (2.11.3)
       activesupport (>= 5.0.0)
     listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
