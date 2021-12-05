@@ -13,7 +13,7 @@
   "devDependencies": {
     "sass": "1.44.0",
     "vanilla-framework": "2.37.1",
-    "webpack-dev-server": "^3"
+    "webpack-dev-server": "4.6.0"
   },
   "version": "0.1.0"
 }
