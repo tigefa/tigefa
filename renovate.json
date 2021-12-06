@@ -1,7 +1,8 @@
 {
-  "automerge": true,
   "timezone": "Asia/Jakarta",
-  "extends": [
-    "config:base"
-  ]
+  "schedule": ["before 5am"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  }
 }
