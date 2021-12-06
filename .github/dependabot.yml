@@ -11,3 +11,11 @@ updates:
   allow:
   - dependency-type: direct
   - dependency-type: indirect
+
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+    timezone: "Asia/Jakarta"
+  open-pull-requests-limit: 10
