@@ -1,4 +1,4 @@
-## tigefa
+## tigefa [![Ruby](https://github.com/tigefa/tigefa/actions/workflows/ruby.yml/badge.svg)](https://github.com/tigefa/tigefa/actions/workflows/ruby.yml)
 
 Ruby On Rails Apps. :construction: :penguin:
 
