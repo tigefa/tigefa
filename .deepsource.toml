@@ -5,3 +5,7 @@ test_patterns = ["test/**"]
 [[analyzers]]
 name = "ruby"
 enabled = true
+
+[[transformers]]
+name = "standardrb"
+enabled = true
