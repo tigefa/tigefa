@@ -198,7 +198,7 @@ DEPENDENCIES
   capybara
   debug
   importmap-rails (>= 1.0.1)
-  jbuilder
+  jbuilder (>= 2.11.5)
   puma (~> 5.0)
   rails (~> 7.0.0)
   redis (~> 4.0)
