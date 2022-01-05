@@ -167,7 +167,7 @@ GEM
     sqlite3 (1.4.2)
     stimulus-rails (1.0.2)
       railties (>= 6.0.0)
-    thor (1.2.0)
+    thor (1.2.1)
     turbo-rails (1.0.0)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
