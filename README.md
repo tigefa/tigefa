@@ -1,4 +1,5 @@
 ## tigefa [![Ruby](https://github.com/tigefa/tigefa/actions/workflows/ruby.yml/badge.svg)](https://github.com/tigefa/tigefa/actions/workflows/ruby.yml) [![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Ftigefa%2Ftigefa%2F)](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Ftigefa%2Ftigefa%2F)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftigefa%2Ftigefa.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftigefa%2Ftigefa?ref=badge_shield)
 
 **Live global stats (provided by [fight-covid19/bagdes](https://github.com/fight-covid19/bagdes))**
 
@@ -21,3 +22,7 @@ Ruby On Rails Apps. :construction: :penguin:
 - [ ] Redis for all store data
 - [ ] OAuth services
 - [ ] API compatible services
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftigefa%2Ftigefa.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftigefa%2Ftigefa?ref=badge_large)
