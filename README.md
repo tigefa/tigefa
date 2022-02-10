@@ -1,4 +1,4 @@
-# tigefa [![Ruby](https://github.com/tigefa/tigefa/actions/workflows/ruby.yml/badge.svg)](https://github.com/tigefa/tigefa/actions/workflows/ruby.yml) [![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Ftigefa%2Ftigefa%2F)](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Ftigefa%2Ftigefa%2F)
+# tigefa [![Ruby](https://github.com/tigefa/tigefa/actions/workflows/ruby.yml/badge.svg)](https://github.com/tigefa/tigefa/actions/workflows/ruby.yml) ![visitors](https://visitor-badge.deta.dev/badge?page_id=tigefa.tigefa&left_color=dark&right_color=dark) [![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Ftigefa%2Ftigefa%2F)](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Ftigefa%2Ftigefa%2F)
 
 **Live global stats (provided by [fight-covid19/bagdes](https://github.com/fight-covid19/bagdes))**
 
