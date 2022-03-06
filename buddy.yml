@@ -1,6 +1,6 @@
 - pipeline: "rails"
   trigger_mode: "ON_EVERY_PUSH"
-  ref_name: "master"
+  ref_name: "main"
   ref_type: "BRANCH"
   always_from_scratch: true
   auto_clear_cache: true
