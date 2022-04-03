@@ -19,4 +19,4 @@ jobs:
           path-to-signatures: "signatures/version1/cla.json"
           path-to-document: "https://github.com/tigefa/tigefa/blob/main/docs/cla-v1.md"
           branch: "main"
-          allowlist: tigefa4u,dependabot-preview,dependabot,renovate-bot,snyk-bot,bot*
+          allowlist: tigefa4u,dependabot-preview,dependabot,renovate,renovate-bot,snyk-bot,bot*
