@@ -7,14 +7,11 @@ on:
     types: [created]
   schedule:
     - cron: '0 4 * * *'
-  repository_dispatch:
-    types: [no-response]
-  workflow_dispatch:
 jobs:
   noResponse:
     runs-on: ubuntu-latest
     steps:
-      - uses: lee-dohm/no-response@v0.5.0
+      - uses: lee-dohm/no-response@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           responseRequiredLabel: more-information-needed
