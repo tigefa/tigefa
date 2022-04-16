@@ -5,11 +5,11 @@ name: No Response
 on:
   issue_comment:
     types: [created]
-  repository_dispatch:
-    types: [no-response]
   schedule:
     - cron: '0 4 * * *'
-
+  repository_dispatch:
+    types: [no-response]
+  workflow_dispatch:
 jobs:
   noResponse:
     runs-on: ubuntu-latest
