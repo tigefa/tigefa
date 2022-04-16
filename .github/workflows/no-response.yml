@@ -5,8 +5,10 @@ name: No Response
 on:
   issue_comment:
     types: [created]
+  repository_dispatch:
+    types: [no-response]
+  workflow_dispatch:
   schedule:
-    # Schedule for five minutes after the hour, every hour
     - cron: '0 4 * * *'
 
 jobs:
