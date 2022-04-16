@@ -7,7 +7,6 @@ on:
     types: [created]
   repository_dispatch:
     types: [no-response]
-  workflow_dispatch:
   schedule:
     - cron: '0 4 * * *'
 
