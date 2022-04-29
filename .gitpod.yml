@@ -6,4 +6,31 @@ tasks:
   - init: npm install && bin/setup
     command: bin/rails server
 
+vscode:
+  extensions:
+    - ms-azuretools.vscode-docker
+    - ms-vscode.vscode-node-azure-pack
+    - bungcip.better-toml
+    - zamerick.vscode-caddyfile-syntax
+    - EditorConfig.EditorConfig
+    - GitHub.vscode-pull-request-github
+    - GitHub.github-vscode-theme
+    - bierner.github-markdown-preview
+    - Gruntfuggly.todo-tree
+    - WakaTime.vscode-wakatime
+    - timonwong.shellcheck
+    - GitLab.gitlab-workflow
+    - bierner.markdown-preview-github-styles
+    - PKief.material-icon-theme
+    - ms-python.python
+    - rebornix.ruby
 
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: true
+    addBadge: true
