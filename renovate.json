@@ -1,6 +1,7 @@
 {
   "timezone": "Asia/Jakarta",
   "schedule": ["before 5am"],
+  "automerge": true,
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
