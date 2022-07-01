@@ -7,12 +7,12 @@ tasks:
   - name: Rails
     command: |
       rvm install "$(cat .ruby-version)"
-      rvm use "$(cat .ruby-version)"
+      rvm --default use "$(cat .ruby-version)"
       gem install bundler --no-document
       bundle install
       npm install
       bin/setup
-      bin/rails server
+      bin/rails server -b 0.0.0.0
 
 ports:
   - port: 3000
