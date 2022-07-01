@@ -6,6 +6,8 @@ image: gitpod/workspace-full:latest
 tasks:
   - init: |
       rvm install "$(cat .ruby-version)"
+      rvm use "$(cat .ruby-version)"
+      bundle install
       nvm install
       npm install
       bin/setup
