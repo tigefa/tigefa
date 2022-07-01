@@ -4,15 +4,14 @@
 image: gitpod/workspace-full:latest
 
 tasks:
-  - init: |
+  - name: Rails
+    command: |
       rvm install "$(cat .ruby-version)"
       rvm use "$(cat .ruby-version)"
+      gem install bundler --no-document
       bundle install
-      nvm install
       npm install
       bin/setup
-  - command: |
-      rvm use "$(cat .ruby-version)"
       bin/rails server
 
 ports:
