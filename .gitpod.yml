@@ -11,7 +11,9 @@ tasks:
       nvm install
       npm install
       bin/setup
-  - command: bin/rails server
+  - command: |
+      rvm use "$(cat .ruby-version)"
+      bin/rails server
 
 ports:
   - port: 3000
