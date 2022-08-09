@@ -7,7 +7,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: UseRubyVersion@0
+- task: UseRubyVersion@0.200.0
   inputs:
     versionSpec: '>= 2.7'
     addToPath: true
