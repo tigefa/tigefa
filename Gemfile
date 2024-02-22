@@ -16,10 +16,10 @@ gem "sqlite3", "~> 1.5"
 gem "puma", "~> 6.0"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem "importmap-rails"
+gem "importmap-rails", ">= 2.0.0"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails", ">= 1.5.0"
+gem "turbo-rails", ">= 2.0.0"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails", ">= 1.3.0"
@@ -66,7 +66,7 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem "capybara"
+  gem "capybara", ">= 3.40.0"
   gem "selenium-webdriver"
-  gem "webdrivers"
+  gem "webdrivers", ">= 5.3.0"
 end
