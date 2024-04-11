@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "sass": "1.74.1",
-    "vanilla-framework": "4.9.1"
+    "vanilla-framework": "4.10.0"
   },
   "engines": {
     "node": ">=10.0.0",
