@@ -77,8 +77,8 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
-    base64 (0.1.1)
-    bigdecimal (3.1.6)
+    base64 (0.2.0)
+    bigdecimal (3.1.7)
     bindex (0.8.1)
     bootsnap (1.18.3)
       msgpack (~> 1.2)
@@ -99,12 +99,11 @@ GEM
     debug (1.9.2)
       irb (~> 1.10)
       reline (>= 0.3.8)
-    drb (2.1.1)
-      ruby2_keywords
+    drb (2.2.1)
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    i18n (1.14.1)
+    i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.2.3)
       actionpack (>= 6.0.0)
@@ -114,10 +113,10 @@ GEM
     irb (1.10.1)
       rdoc
       reline (>= 0.3.8)
-    jbuilder (2.11.5)
+    jbuilder (2.12.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    loofah (2.21.4)
+    loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     mail (2.8.1)
@@ -128,10 +127,10 @@ GEM
     marcel (1.0.2)
     matrix (0.4.2)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.5)
-    minitest (5.20.0)
+    mini_portile2 (2.8.6)
+    minitest (5.22.3)
     msgpack (1.7.2)
-    mutex_m (0.1.2)
+    mutex_m (0.2.0)
     net-imap (0.4.10)
       date
       net-protocol
@@ -142,10 +141,10 @@ GEM
     net-smtp (0.4.0.1)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.15.5)
+    nokogiri (1.16.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.15.5-x86_64-linux)
+    nokogiri (1.16.4-x86_64-linux)
       racc (~> 1.4)
     psych (5.1.2)
       stringio
@@ -197,7 +196,6 @@ GEM
     reline (0.4.3)
       io-console (~> 0.5)
     rexml (3.2.5)
-    ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     selenium-webdriver (4.9.0)
       rexml (~> 3.2, >= 3.2.5)
@@ -251,7 +249,7 @@ DEPENDENCIES
   capybara
   debug
   importmap-rails
-  jbuilder
+  jbuilder (>= 2.12.0)
   puma (~> 6.0)
   rails (~> 7.1.0)
   selenium-webdriver
