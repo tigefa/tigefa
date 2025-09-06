@@ -19,7 +19,7 @@
     "@hotwired/turbo-rails": "^8.0.0"
   },
   "devDependencies": {
-    "sass": "1.91.0",
+    "sass": "1.92.1",
     "vanilla-framework": "4.31.0"
   },
   "engines": {
