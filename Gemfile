@@ -4,10 +4,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 #ruby "3.1.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.1.0"
+gem "rails", "~> 7.1.4"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails"
+gem "sprockets-rails", ">= 3.5.0"
 
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.5"
@@ -16,10 +16,10 @@ gem "sqlite3", "~> 1.5"
 gem "puma", "~> 6.0"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem "importmap-rails"
+gem "importmap-rails", ">= 2.0.0"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails", ">= 1.5.0"
+gem "turbo-rails", ">= 2.0.0"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails", ">= 1.3.0"
@@ -66,7 +66,7 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem "capybara"
+  gem "capybara", ">= 3.40.0"
   gem "selenium-webdriver"
   gem "webdrivers"
 end
